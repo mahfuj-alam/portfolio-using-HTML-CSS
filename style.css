@@ -15,16 +15,20 @@
     padding: 50px;
 }
 
-.top-section h1 {
-    margin: 20px 0;
+h1 {
+    margin: 25px 0;
     font-size: 50px;
+}
+
+h3 {
+    margin: 50px 0;
 }
 
 .title-name {
     color: orange;
 }
 
-.top-section a {
+a {
     text-decoration: none;
     background: linear-gradient(to top left, tomato 10%, orange 90%);
     color: #fff;
@@ -32,12 +36,14 @@
     margin-top: 50px;
     display: inline-block;
     border-radius: 5px;
+    font-weight: 700;
 }
 
 .intro-image {
     background-image: url(images/my-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
+    opacity: 0.8;
     padding-bottom: 50px;
 }
 
@@ -48,4 +54,11 @@
     position: relative;
     left: 80px;
     top: 15px;
+}
+
+.dream-banner {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
